@@ -1,0 +1,18 @@
+.social{
+    margin: 0px 0px 0px -15px;
+}
+body {
+    font-size: 70%;
+}
+\\.ctacontainer{
+    width: clamp(200px, 50% + 20px, 800px); /* Yes, you can do math inside clamp()! */
+  }
+  .icon{
+      display: none;
+  }
+  section.rocket .right-block .floating-graphics {
+    margin-right: -13%; 
+    }
+p{
+    font-size: large;
+}
