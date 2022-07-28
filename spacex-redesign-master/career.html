@@ -10,6 +10,12 @@
     <link rel="stylesheet" media="screen and (max-width: 1480px)" href="./css/resposiveness.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/careerstyle.css">
+    <style>
+  @media screen and (max-width: 600px) {
+    .nav-links.responsive {position: relative; margin-left: 20%;}
+    .shophead nav .nav-right a:after {background: none;}
+}
+  </style>
 </head>
 
 <section>
@@ -26,7 +32,7 @@
                  </a>
              </div>
              <div class="nav-right">
-                 <div class="nav-links">
+              <div class="nav-links" id="nl">
                      <a href="index.html" >Home</a>
                      <a href="#pbx-a">About</a>
                      <a href="updates.html">Updates</a>

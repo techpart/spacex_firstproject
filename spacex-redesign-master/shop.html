@@ -12,7 +12,10 @@
     <style>
         body{
     font-family:16px/26px D-DIN-Regular,Arial,Verdana,sans-serif ;
-    
+  }
+    @media screen and (max-width: 600px) {
+      .nav-links.responsive {position: relative; margin-left: 20%;}
+      header nav .nav-right a:after {background: none;}
   }
     </style>
 </head>
@@ -570,8 +573,8 @@ for (var attr in meta) {
                 <img src="./img/logo.png" alt="">
             </a>
         </div>
-        <div class="nav-right">
-            <div class="nav-links">
+        <div class="nav-right" >
+          <div class="nav-links" id="nl">
                 <a href="index.html" >Home</a>
                 <a href="#pbx-a">About</a>
                 <a href="updates.html">Updates</a>
